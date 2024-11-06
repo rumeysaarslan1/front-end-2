@@ -1,0 +1,58 @@
+.box {
+    width: 150px;
+    height: 75px;
+    background-color: darksalmon;
+    color: rgb(42, 25, 117);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid black; 
+    
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: #4CAF50;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+  
+      .static-box {
+        position: static;
+        top: 20px;
+        left: 20px;
+      }
+  
+      .relative-box {
+        position: relative;
+        top: 20px;
+        left: 10px;
+      }
+  
+      .absolute-box {
+        position: absolute;
+        top: 50px;
+        right: 60px;
+      }
+  
+      .fixed-box {
+        position: fixed;
+        bottom: 50px;
+        left: 40px;
+      }
+    </style> -->
+  </head>
+  
+  <body>
+    <div class="container">
+      <div class="box static-box">Static</div>
+      <div class="box relative-box">Relative</div>
+      <div class="box absolute-box">Absolute</div>
+    </div>
+  
+    <div class="box fixed-box">Fixed</div>
+  
+  </body>
+  
+
+}
